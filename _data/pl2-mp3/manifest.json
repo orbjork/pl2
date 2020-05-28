@@ -23,6 +23,14 @@
         "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/canvas",
         "type": "Canvas",
         "duration": 3614.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/canvas/Speakers.json",
+            "label": "Speakers"
+          }
+        ],
         "items": [
           {
             "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/paintings",
