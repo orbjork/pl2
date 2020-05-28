@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://orbjork.github.io/pl2/pl2-mp3/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "pl2.mp3" ] },
+    "homepage": [
+      {
+        "id": "http://laits.utexas.edu/miltonpl",
+        "type": "Text",
+        "label": { "en": [ "Home page for pl2.mp3" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "",
+        "type": "Agent",
+        "label": { "en": [ "" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 3614.0,
+        "items": [
+          {
+            "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "http://olinbjork.net/miltonpl/pl2/pl2.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 3614.0
+                },
+                "target": "https://orbjork.github.io/pl2/pl2-mp3/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
