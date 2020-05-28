@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Paradise Lost Book 2" ] },
+    "summary": { "en": [ "Audio reading of the second book of Paradise Lost recorded at UT Austin in 2007" ] },
+    "items": [
+    ]
+}
